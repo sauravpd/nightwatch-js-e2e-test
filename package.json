@@ -1,22 +1,24 @@
 {
-  "name": "nightwatch-js-e2e-test",
+  "name": "nightwatch-js",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nightwatch"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sauravpd/nightwatch-js-e2e-test.git"
   },
-  "author": "saurav",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sauravpd/nightwatch-js-e2e-test/issues"
   },
   "homepage": "https://github.com/sauravpd/nightwatch-js-e2e-test#readme",
   "devDependencies": {
-    "nightwatch": "^1.3.7"
+    "chromedriver": "^85.0.1",
+    "nightwatch": "^1.4.3"
   }
 }
