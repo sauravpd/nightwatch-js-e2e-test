@@ -5,7 +5,7 @@ module.exports = {
             .waitForElementVisible("//a[contains(text(),'A/B Testing')]")
             .click("//a[contains(text(),'A/B Testing')]")
         browser.useCss().getText(".example h3", function (result) {
-            console.log("*****" + result.value + "*********")
+            console.log("********" + result.value + "*********")
             browser.assert.containsText(".example h3", "A/B Test");
             browser.saveScreenshot("tests_output/abTestingControl.png");
         })
